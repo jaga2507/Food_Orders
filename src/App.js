@@ -1,9 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import CallMadeIcon from '@material-ui/icons/CallMade';
-import Button from '@material-ui/core/Button';
-import { MyLocation } from '@material-ui/icons';
 import {Line, Doughnut} from 'react-chartjs-2';
 import CallReceivedIcon from '@material-ui/icons/CallReceived';
 import NearMeOutlinedIcon from '@material-ui/icons/NearMeOutlined';
