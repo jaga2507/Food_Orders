@@ -1,0 +1,654 @@
+{
+    "user": [
+        {
+            "userId": 0,
+            "name": "Akshay",
+            "email": "akshay37@gmail.com",
+            "mobile": "9137423734",
+            "password": "someStrongPass",
+            "age": 20,
+            "address": "chennai"
+        },
+        {
+            "userId": 1,
+            "name": "karthick",
+            "email": "karthick@gmail.com",
+            "mobile": "9137423734",
+            "password": "12345678"
+        }
+    ],
+    "hotels": [
+        {
+            "id": 1,
+            "name": "Anadha Bhavan",
+            "rating": 4.5,
+            "location": "chennai",
+            "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzTs4iGVTMA7n_icd3cXDPF8GSEf-o7usjjg&usqp=CAU",
+            "foods": [
+                {
+                    "id": 1,
+                    "food_name": "Chicken Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1_1rdLT8iEm4m9XinG0kZxwo91uOnAfhBw&usqp=CAU"
+                },
+                {
+                    "id": 2,
+                    "food_name": "Mutton Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp85ahdJBo4UVF5rt40EJCi-C9VQKcC2KQg&usqp=CAU"
+                },
+                {
+                    "id": 3,
+                    "food_name": "Egg Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT492pRG22yrNzDdM1eZR6VReEB2LdI-OBNPQ&usqp=CAU"
+                },
+                {
+                    "id": 4,
+                    "food_name": "Panner Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PQ_j5Tcix_Vp3MxfSCcgFiaOmuQeJu7U_w&usqp=CAU"
+                },
+                {
+                    "id": 5,
+                    "food_name": "Gobi Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGk86MIxfq5WpxDKdLGbUx1bNkqsWT1vaXGA&usqp=CAU "
+                },
+                {
+                    "id": 6,
+                    "food_name": "Dosa",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcDQzWe9QIT243NTVG9mDD6IMZf6TiLvPhg&usqp=CAU"
+                },
+                {
+                    "id": 7,
+                    "food_name": "Chicken Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKvGtg3JLVQRaHvETh0N9OokzNrWsPx95-Q&usqp=CAU"
+                },
+                {
+                    "id": 8,
+                    "food_name": "Mutton Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfh9Y1Us-Z-Wz6WpVKGJ439zGkxElvCundw&usqp=CAU"
+                },
+                {
+                    "id": 9,
+                    "food_name": "Chicken Curry",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV-4hZayFYBpa1J7t9XQgMs3ZwrP_lnnS0A&usqp=CAU"
+                },
+                {
+                    "id": 10,
+                    "food_name": "Gobi Rice",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHV7Tqi5t47ENeTXrnRBnXxKlxLlQe0QJ6Q&usqp=CAU"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Flying Elephant",
+            "rating": 3.5,
+            "location": "Guindy",
+            "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6P7Oo_LwIz7N5l226VZJTP926_o3hFTPsZQ&usqp=CAU",
+            "foods": [
+                {
+                    "id": 1,
+                    "food_name": "Chicken Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1_1rdLT8iEm4m9XinG0kZxwo91uOnAfhBw&usqp=CAU"
+                },
+                {
+                    "id": 2,
+                    "food_name": "Mutton Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp85ahdJBo4UVF5rt40EJCi-C9VQKcC2KQg&usqp=CAU"
+                },
+                {
+                    "id": 3,
+                    "food_name": "Egg Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT492pRG22yrNzDdM1eZR6VReEB2LdI-OBNPQ&usqp=CAU"
+                },
+                {
+                    "id": 4,
+                    "food_name": "Panner Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PQ_j5Tcix_Vp3MxfSCcgFiaOmuQeJu7U_w&usqp=CAU"
+                },
+                {
+                    "id": 5,
+                    "food_name": "Gobi Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGk86MIxfq5WpxDKdLGbUx1bNkqsWT1vaXGA&usqp=CAU "
+                },
+                {
+                    "id": 6,
+                    "food_name": "Dosa",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcDQzWe9QIT243NTVG9mDD6IMZf6TiLvPhg&usqp=CAU"
+                },
+                {
+                    "id": 7,
+                    "food_name": "Chicken Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKvGtg3JLVQRaHvETh0N9OokzNrWsPx95-Q&usqp=CAU"
+                },
+                {
+                    "id": 8,
+                    "food_name": "Mutton Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfh9Y1Us-Z-Wz6WpVKGJ439zGkxElvCundw&usqp=CAU"
+                },
+                {
+                    "id": 9,
+                    "food_name": "Chicken Curry",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV-4hZayFYBpa1J7t9XQgMs3ZwrP_lnnS0A&usqp=CAU"
+                },
+                {
+                    "id": 10,
+                    "food_name": "Gobi Rice",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHV7Tqi5t47ENeTXrnRBnXxKlxLlQe0QJ6Q&usqp=CAU"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bay View",
+            "rating": 4.8,
+            "location": "Kovalam",
+            "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2QEInuVzHGB7BOSWzhW5sNvCDx9uBPpDuVQ&usqp=CAU",
+            "foods": [
+                {
+                    "id": 1,
+                    "food_name": "Chicken Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1_1rdLT8iEm4m9XinG0kZxwo91uOnAfhBw&usqp=CAU"
+                },
+                {
+                    "id": 2,
+                    "food_name": "Mutton Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp85ahdJBo4UVF5rt40EJCi-C9VQKcC2KQg&usqp=CAU"
+                },
+                {
+                    "id": 3,
+                    "food_name": "Egg Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT492pRG22yrNzDdM1eZR6VReEB2LdI-OBNPQ&usqp=CAU"
+                },
+                {
+                    "id": 4,
+                    "food_name": "Panner Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PQ_j5Tcix_Vp3MxfSCcgFiaOmuQeJu7U_w&usqp=CAU"
+                },
+                {
+                    "id": 5,
+                    "food_name": "Gobi Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGk86MIxfq5WpxDKdLGbUx1bNkqsWT1vaXGA&usqp=CAU "
+                },
+                {
+                    "id": 6,
+                    "food_name": "Dosa",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcDQzWe9QIT243NTVG9mDD6IMZf6TiLvPhg&usqp=CAU"
+                },
+                {
+                    "id": 7,
+                    "food_name": "Chicken Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKvGtg3JLVQRaHvETh0N9OokzNrWsPx95-Q&usqp=CAU"
+                },
+                {
+                    "id": 8,
+                    "food_name": "Mutton Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfh9Y1Us-Z-Wz6WpVKGJ439zGkxElvCundw&usqp=CAU"
+                },
+                {
+                    "id": 9,
+                    "food_name": "Chicken Curry",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV-4hZayFYBpa1J7t9XQgMs3ZwrP_lnnS0A&usqp=CAU"
+                },
+                {
+                    "id": 10,
+                    "food_name": "Gobi Rice",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHV7Tqi5t47ENeTXrnRBnXxKlxLlQe0QJ6Q&usqp=CAU"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Peshawri",
+            "rating": 4.3,
+            "location": "Guindy",
+            "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiI0knRuYvLNaO_8312d-ffJZzkDCcFC3rLA&usqp=CAU",
+            "foods": [
+                {
+                    "id": 1,
+                    "food_name": "Chicken Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1_1rdLT8iEm4m9XinG0kZxwo91uOnAfhBw&usqp=CAU"
+                },
+                {
+                    "id": 2,
+                    "food_name": "Mutton Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp85ahdJBo4UVF5rt40EJCi-C9VQKcC2KQg&usqp=CAU"
+                },
+                {
+                    "id": 3,
+                    "food_name": "Egg Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT492pRG22yrNzDdM1eZR6VReEB2LdI-OBNPQ&usqp=CAU"
+                },
+                {
+                    "id": 4,
+                    "food_name": "Panner Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PQ_j5Tcix_Vp3MxfSCcgFiaOmuQeJu7U_w&usqp=CAU"
+                },
+                {
+                    "id": 5,
+                    "food_name": "Gobi Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGk86MIxfq5WpxDKdLGbUx1bNkqsWT1vaXGA&usqp=CAU "
+                },
+                {
+                    "id": 6,
+                    "food_name": "Dosa",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcDQzWe9QIT243NTVG9mDD6IMZf6TiLvPhg&usqp=CAU"
+                },
+                {
+                    "id": 7,
+                    "food_name": "Chicken Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKvGtg3JLVQRaHvETh0N9OokzNrWsPx95-Q&usqp=CAU"
+                },
+                {
+                    "id": 8,
+                    "food_name": "Mutton Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfh9Y1Us-Z-Wz6WpVKGJ439zGkxElvCundw&usqp=CAU"
+                },
+                {
+                    "id": 9,
+                    "food_name": "Chicken Curry",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV-4hZayFYBpa1J7t9XQgMs3ZwrP_lnnS0A&usqp=CAU"
+                },
+                {
+                    "id": 10,
+                    "food_name": "Gobi Rice",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHV7Tqi5t47ENeTXrnRBnXxKlxLlQe0QJ6Q&usqp=CAU"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Eden",
+            "rating": 4.7,
+            "location": "Besant Nagar",
+            "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwm-IkXBJ0dbih8R7Cx6GJb3qfjUUlK_yCrg&usqp=CAU",
+            "foods": [
+                {
+                    "id": 1,
+                    "food_name": "Chicken Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1_1rdLT8iEm4m9XinG0kZxwo91uOnAfhBw&usqp=CAU"
+                },
+                {
+                    "id": 2,
+                    "food_name": "Mutton Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp85ahdJBo4UVF5rt40EJCi-C9VQKcC2KQg&usqp=CAU"
+                },
+                {
+                    "id": 3,
+                    "food_name": "Egg Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT492pRG22yrNzDdM1eZR6VReEB2LdI-OBNPQ&usqp=CAU"
+                },
+                {
+                    "id": 4,
+                    "food_name": "Panner Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PQ_j5Tcix_Vp3MxfSCcgFiaOmuQeJu7U_w&usqp=CAU"
+                },
+                {
+                    "id": 5,
+                    "food_name": "Gobi Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGk86MIxfq5WpxDKdLGbUx1bNkqsWT1vaXGA&usqp=CAU "
+                },
+                {
+                    "id": 6,
+                    "food_name": "Dosa",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcDQzWe9QIT243NTVG9mDD6IMZf6TiLvPhg&usqp=CAU"
+                },
+                {
+                    "id": 7,
+                    "food_name": "Chicken Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKvGtg3JLVQRaHvETh0N9OokzNrWsPx95-Q&usqp=CAU"
+                },
+                {
+                    "id": 8,
+                    "food_name": "Mutton Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfh9Y1Us-Z-Wz6WpVKGJ439zGkxElvCundw&usqp=CAU"
+                },
+                {
+                    "id": 9,
+                    "food_name": "Chicken Curry",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV-4hZayFYBpa1J7t9XQgMs3ZwrP_lnnS0A&usqp=CAU"
+                },
+                {
+                    "id": 10,
+                    "food_name": "Gobi Rice",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHV7Tqi5t47ENeTXrnRBnXxKlxLlQe0QJ6Q&usqp=CAU"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Kaidi Kitchen",
+            "rating": 4.4,
+            "location": "Mylapore",
+            "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB2cNa-DPp1BLL-x_SAHB5ptLwegQ-tjbgbg&usqp=CAU",
+            "foods": [
+                {
+                    "id": 1,
+                    "food_name": "Chicken Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1_1rdLT8iEm4m9XinG0kZxwo91uOnAfhBw&usqp=CAU"
+                },
+                {
+                    "id": 2,
+                    "food_name": "Mutton Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp85ahdJBo4UVF5rt40EJCi-C9VQKcC2KQg&usqp=CAU"
+                },
+                {
+                    "id": 3,
+                    "food_name": "Egg Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT492pRG22yrNzDdM1eZR6VReEB2LdI-OBNPQ&usqp=CAU"
+                },
+                {
+                    "id": 4,
+                    "food_name": "Panner Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PQ_j5Tcix_Vp3MxfSCcgFiaOmuQeJu7U_w&usqp=CAU"
+                },
+                {
+                    "id": 5,
+                    "food_name": "Gobi Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGk86MIxfq5WpxDKdLGbUx1bNkqsWT1vaXGA&usqp=CAU "
+                },
+                {
+                    "id": 6,
+                    "food_name": "Dosa",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcDQzWe9QIT243NTVG9mDD6IMZf6TiLvPhg&usqp=CAU"
+                },
+                {
+                    "id": 7,
+                    "food_name": "Chicken Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKvGtg3JLVQRaHvETh0N9OokzNrWsPx95-Q&usqp=CAU"
+                },
+                {
+                    "id": 8,
+                    "food_name": "Mutton Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfh9Y1Us-Z-Wz6WpVKGJ439zGkxElvCundw&usqp=CAU"
+                },
+                {
+                    "id": 9,
+                    "food_name": "Chicken Curry",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV-4hZayFYBpa1J7t9XQgMs3ZwrP_lnnS0A&usqp=CAU"
+                },
+                {
+                    "id": 10,
+                    "food_name": "Gobi Rice",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHV7Tqi5t47ENeTXrnRBnXxKlxLlQe0QJ6Q&usqp=CAU"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Annalakshmi",
+            "rating": 4.9,
+            "location": "Egmore",
+            "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxXkjCi3xl-sv1Avnyfk5GA2b4Ylb4EcssIQ&usqp=CAU",
+            "foods": [
+                {
+                    "id": 1,
+                    "food_name": "Chicken Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1_1rdLT8iEm4m9XinG0kZxwo91uOnAfhBw&usqp=CAU"
+                },
+                {
+                    "id": 2,
+                    "food_name": "Mutton Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp85ahdJBo4UVF5rt40EJCi-C9VQKcC2KQg&usqp=CAU"
+                },
+                {
+                    "id": 3,
+                    "food_name": "Egg Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT492pRG22yrNzDdM1eZR6VReEB2LdI-OBNPQ&usqp=CAU"
+                },
+                {
+                    "id": 4,
+                    "food_name": "Panner Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PQ_j5Tcix_Vp3MxfSCcgFiaOmuQeJu7U_w&usqp=CAU"
+                },
+                {
+                    "id": 5,
+                    "food_name": "Gobi Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGk86MIxfq5WpxDKdLGbUx1bNkqsWT1vaXGA&usqp=CAU "
+                },
+                {
+                    "id": 6,
+                    "food_name": "Dosa",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcDQzWe9QIT243NTVG9mDD6IMZf6TiLvPhg&usqp=CAU"
+                },
+                {
+                    "id": 7,
+                    "food_name": "Chicken Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKvGtg3JLVQRaHvETh0N9OokzNrWsPx95-Q&usqp=CAU"
+                },
+                {
+                    "id": 8,
+                    "food_name": "Mutton Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfh9Y1Us-Z-Wz6WpVKGJ439zGkxElvCundw&usqp=CAU"
+                },
+                {
+                    "id": 9,
+                    "food_name": "Chicken Curry",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV-4hZayFYBpa1J7t9XQgMs3ZwrP_lnnS0A&usqp=CAU"
+                },
+                {
+                    "id": 10,
+                    "food_name": "Gobi Rice",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHV7Tqi5t47ENeTXrnRBnXxKlxLlQe0QJ6Q&usqp=CAU"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "The Crown",
+            "rating": 4.0,
+            "location": "T Nagar",
+            "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZYO-I1C445yv2i_cI9qEKcomlWIjPZItpVQ&usqp=CAU",
+            "foods": [
+                {
+                    "id": 1,
+                    "food_name": "Chicken Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1_1rdLT8iEm4m9XinG0kZxwo91uOnAfhBw&usqp=CAU"
+                },
+                {
+                    "id": 2,
+                    "food_name": "Mutton Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfp85ahdJBo4UVF5rt40EJCi-C9VQKcC2KQg&usqp=CAU"
+                },
+                {
+                    "id": 3,
+                    "food_name": "Egg Briyani",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT492pRG22yrNzDdM1eZR6VReEB2LdI-OBNPQ&usqp=CAU"
+                },
+                {
+                    "id": 4,
+                    "food_name": "Panner Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PQ_j5Tcix_Vp3MxfSCcgFiaOmuQeJu7U_w&usqp=CAU"
+                },
+                {
+                    "id": 5,
+                    "food_name": "Gobi Masala",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGk86MIxfq5WpxDKdLGbUx1bNkqsWT1vaXGA&usqp=CAU "
+                },
+                {
+                    "id": 6,
+                    "food_name": "Dosa",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcDQzWe9QIT243NTVG9mDD6IMZf6TiLvPhg&usqp=CAU"
+                },
+                {
+                    "id": 7,
+                    "food_name": "Chicken Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKvGtg3JLVQRaHvETh0N9OokzNrWsPx95-Q&usqp=CAU"
+                },
+                {
+                    "id": 8,
+                    "food_name": "Mutton Masala",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfh9Y1Us-Z-Wz6WpVKGJ439zGkxElvCundw&usqp=CAU"
+                },
+                {
+                    "id": 9,
+                    "food_name": "Chicken Curry",
+                    "rate": 150,
+                    "type": "Nonveg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV-4hZayFYBpa1J7t9XQgMs3ZwrP_lnnS0A&usqp=CAU"
+                },
+                {
+                    "id": 10,
+                    "food_name": "Gobi Rice",
+                    "rate": 150,
+                    "type": "veg",
+                    "food_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHV7Tqi5t47ENeTXrnRBnXxKlxLlQe0QJ6Q&usqp=CAU"
+                }
+            ]
+        }
+    ]
+}

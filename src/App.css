@@ -1,160 +1,85 @@
-.flex-app-main{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-.flex-main{
-    display: flex;
-    width: 23rem;
-    border-radius: 10px;
-    justify-content: space-between;
-    border: 1px solid gray;
-    padding: 1rem;
-    height: 10rem;
-    cursor: pointer;
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
-.border{
-    width: 23rem;
-    height: 10rem;
-    border-radius: 10px;
-    border: 1px solid gray;
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
-.border-flex{
-    margin-top: 1rem;
-    margin-left: 1rem;
-    background-color: rgb(0, 132, 255);
+
+.App-link {
+  color: #61dafb;
 }
-.total{
-    font-size: 12px;
-    margin-top: 10px;
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
-.count{
-    font-weight: bold;
-    margin-top: 20px;
-    font-size: 19px;
+
+.nav-link{
+  background-color: #1b4262f2 !important;
+  color: white !important;
+  border-radius: 10px;
+  font-size: 20px !important;
+  font-weight: 800;
 }
-.CallMade{
-    font-size: 12px;
-    margin-top: 20px;
+
+.btn-dark{
+  background-color: #1b4262f2 !important;
+  color: white !important;
+  border-radius: 10px;
+  font-size: 20px !important;
+  font-weight: 800;
 }
-.CallMadeIcon{
-    zoom: 0.8;
+
+.hr{
+  margin-bottom: 0 !important;
 }
-.MoreHorizIcon{
-    text-align: right;
-    zoom: 0.8;
-    margin-right: 10px;
-    margin-bottom: 10px;
+
+.title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #1b4262f2 !important;
+  font-size: 40px;
+  font-weight: 800;
 }
-.App{
-    padding: 2rem;
+
+.top{
+  background-image: linear-gradient(to bottom right, gray, white, gray);
+  padding-bottom: 0 !important;
 }
-.color{
-    color: blueviolet;
+
+
+.image img{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #1b4262f2 !important;
 }
-.color-red{
-    color: red;
-}
-.doughnut{
-    zoom: 0.3;
-}
-.doughnut-count{
-    margin-top: -183px;
-    margin-left: 100px;
-    font-size: 54px;
-}
-.chart-main{
-    width: 65%;
-    height: 17rem;
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin-top: 3rem;
-}
-.second-line{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-}
-.application-main{
-    border: 1px solid gray;
-    width:30%;
-    padding: 1rem;
-    border-radius: 8px;
-    margin-top: 3rem;
-}
-.application{
-    margin-top: 10px;
-    display: flex;
-    gap: 5px;
-}
-.point{
-    width: 10px;
-    height: 10px;
-    margin-top: 5px;
-    border-radius: 50%;
-}
-.chart-level-main{
-    width: 10rem;
-    height: 8px;
-    background-color: gray;
-    margin-top: 8px;
-    margin-left: 5px;
-}
-.sent{
-    color: indianred;
-}
-.sent-main{
-    display: flex;
-    gap: 1rem;
-}
-.pre-main{
-    width: 65%;
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin-top: 3rem;
-    padding: 1rem;
-}
-.compoign-main{
-    display: flex;
-    justify-content: space-between;
-}
-.CallMad-blue{
-    color: rgb(0, 110, 255);
-    margin-top: 10px;
-}
-.referals{
-    text-align: center;
-    width: 10rem;
-    margin-top: 2rem;
-    border-right: 1px solid gray;
-}
-.second-compoign-main{
-    display: flex;
-    margin-top: 1rem;
-}
-.button{
-    outline: none;
-    background-color: rgb(0, 162, 255);
-    border: 1px solid gray;
-    width: 15rem;
-}
-.button-color{
-    outline: none;
-    background-color: indianred;
-    border: 1px solid gray;
-    width: 15rem;
-}
-.button-main{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 3rem;
-}
-.position-main{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
-.third-main{
-    display: flex;
-    gap: 3rem;
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

@@ -1,0 +1,92 @@
+.spinner{ 
+    position: "fixed"; 
+    top: "50%";
+    left: "50%";
+    transform: "translate(-50%, -50%)";
+}
+.page{
+    background: blue !important;
+    margin-right: 10px !important;
+    width: 30px !important;
+    height: 50px !important;
+    outline: none !important;
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.active{
+    background-color : white !important;
+    color:blue !important;
+    font-weight: bold !important;
+    margin-right: 10px !important;
+    width: 30px !important;
+    height: 50px !important;
+    font-size: 20px !important;
+    outline: none !important;
+    border:1px solid black !important;
+    border-radius: 10px !important;
+}
+
+.page:hover{
+    background-color: rgb(175, 0, 96) !important;
+    color:black !important;
+    outline: none !important;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.card_know{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card_know img{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+.coupon_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_main{
+    box-shadow: 10px 10px 10px gray;
+}
+.btn{
+    padding-right: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+.center{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.view_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+.Button{
+    background-color: green !important ;
+    color: white !important ;
+}

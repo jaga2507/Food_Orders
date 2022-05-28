@@ -1,0 +1,136 @@
+import React, { Component } from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
+import { connect } from 'react-redux';
+import logos from '../hotal_logo.png';
+import swal from 'sweetalert'
+import Home from '../Components/common/Home';
+import Booking from '../Components/common/Booking';
+import Payment from '../Components/common/Payment';
+import Register from '../Components/auth/Register';
+import Login from '../Components/auth/Login';
+import Profile from '../Components/common/Profile'
+import OrderedDatas from '../Components/common/OrderedDatas'
+import Print from '../Components/common/print'
+import { logout } from "../Redux/userAction";
+import "../App.css"
+
+
+class Routing extends Component {
+    render() {
+        const { isauth } = this.props;
+        return (
+            <>
+                <div className="top p-3">
+                    <h2 className="text-center display-5 title">Hilton Hotal & Restaurant</h2>
+                    <ul className="nav">
+                        <li className="image img-fluid">
+                            <img height="100px" className="nav-img" src={logos} alt="." />
+                        </li>
+                        <li
+                            onClick={this.change}
+                            name="home"
+                            className="nav-item "
+                            style={{ fontSize: "20px" }}
+                        >
+                            <Link
+                                onClick={this.change}
+                                name="home"
+                                to="/"
+                                className="text-dark nav-link active"
+                            >
+                                Home
+                            </Link>
+                        </li>
+                        <li className="nav-item" style={{ fontSize: "20px" }}>
+                            <Link
+                                onClick={this.change}
+                                name="book"
+                                to="/booking"
+                                className="nav-link text-dark"
+                            >
+                                Bookings
+                            </Link>
+                        </li>
+                        <li className="nav-item mr-auto" style={{ fontSize: "20px" }}>
+                            <Link
+                                onClick={this.change}
+                                name="user"
+                                to="/user"
+                                className="nav-link text-dark"
+                            >
+                                Profile
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            {isauth ? (
+                                <button
+                                    onClick={() => {
+                                        swal("Logout Successful", "", "success")
+                                        this.props.logout()
+                                    }}
+                                    className="btn btn-dark"
+                                >
+                                    Log Out
+                                </button>
+                            ) : (
+                                    <div>
+                                        <li
+                                            className="nav-item"
+                                            style={{ marginTop: "30px", float: "left" }}
+                                        >
+                                            <Link to="/register" className="text-dark nav-link">
+                                                Register
+                                            </Link>
+                                        </li>
+                                        <li
+                                            className="nav-item"
+                                            style={{ marginTop: "30px", float: "left" }}
+                                        >
+                                            <Link to="/login" className="text-dark nav-link">
+                                                Login
+                                            </Link>
+                                        </li>
+                                    </div>
+                                )}
+                        </li>
+                    </ul>
+                    <hr className='hr' />
+                </div>
+                <div className="">
+                    <Switch>
+                        <Route exact path="/" component={() => <Home />} />
+                        <Route
+                            path="/register"
+                            component={(props) => <Register {...props} />}
+                        />
+                        <Route path="/login" component={(props) => <Login {...props} />} />
+                        <Route exact path="/booking" component={() => <OrderedDatas />} />
+                        <Route exact path="/print" component={() => <Print />} />
+                        <Route exact path="/user" component={() => <Profile />} />
+                        <Route
+                            exact
+                            path="/booking/:name"
+                            component={(props) => <Booking {...props} />}
+                        />
+                        <Route
+                            path="/pay"
+                            component={(props) => <Payment {...props} />}
+                        />
+                        <Route render={() => <div style={{textAlign:"center"}} >404 Not Fount</div>} />
+                    </Switch>
+                </div>
+            </>
+        )
+    }
+}
+
+const mapStateToProps = state => ({
+    isauth: state.user.isauth,
+})
+
+const mapDispatchToProps = dispatch => ({
+    logout: () => dispatch(logout()),
+})
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(Routing);
